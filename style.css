@@ -155,7 +155,7 @@ header{
     text-align: right;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     #top-box{
         font-size: 15px;
     }
