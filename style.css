@@ -168,6 +168,7 @@ header{
     }
     #central{
         width: 100%;
+        flex: 1;
     }
     #third{
         flex: 1;
