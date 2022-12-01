@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Yftoow;
+    src: url("Yftoow-R.ttf");
+}
+
+a:link{color: #ebdbad;}
+a:visited{color: indianred}
+
+body{
+    font-family: "Yftoow", sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: #4a281c;
+    color: #ebdbad;
+}
+
+#menu{
+    width: 40%;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: right;
+}
+#menu>ol{margin: 5%;}
+#menu>ul{
+    margin: 5%;
+    list-style: circle outside;
+    padding: 0;
+}
+
+#top-box{
+    float: left;
+    width: 30%;
+    margin: 25px 60px;
+    background-color: #e6d299;
+    color: #4a281c;
+}
+#top-box>h1{
+    text-align: right;
+    margin-right: 5px;
+}
+
+.main{
+    display: flex;
+    height: 85%;
+
+}
+
+#middle{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#mid-middle{
+    display: flex;
+    flex: 1;
+}
+
+#central{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+}
+
+#third{
+    background-color: #e6d299;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+
+#fifth{
+    display: flex;
+    background-color: indianred;
+    text-align: center;
+}
+
+#fifth>p{
+    margin: 15px 15px 15px;
+    font-size: 20px;
+}
+
+#left{
+    background-color: #6f3c2a;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    width: 33%;
+}
+
+#left>p{
+    margin: 5%;
+    text-align: right;
+    color: #ebdbad;
+    text-shadow: 2px 2px black;
+}
+
+#third>p{
+    margin: 20px 20px 20px 20px;
+    color: #4a281c;
+}
+
+#fourth{
+    background-color: #6f3c2a;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    color: #ebdbad;
+    text-shadow: 2px 2px black;
+}
+#fourth>p{
+    margin: 20px;
+    text-align: right;
+}
+#fourth>img{
+    width: 80%;
+    margin: 10% 10%;
+}
+
+#ender{
+    min-height: 100px;
+    background-color: #4a281c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#down-box>h2{
+    margin: 10px;
+    text-align: center;
+}
+
+#down-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6d299;
+    color: #4a281c;
+    width: 30%;
+    height: 20%;
+}
+
+#ender>p{
+    width: 50%;
+    margin: 5%;
+    color: #ebdbad;
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    #top-box{
+        font-size: 15px;
+    }
+    #mid-middle{
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+    }
+    #central{
+        width: 100%;
+    }
+    #fourth{
+        width: 30%;
+    }
+    #fourth>img{
+        margin: 30% 10%;
+    }
+}
