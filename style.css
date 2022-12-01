@@ -164,6 +164,7 @@ header{
     }
     #left{
         width: 100%;
+        flex: 0;
     }
     #central{
         width: 100%;
@@ -173,7 +174,6 @@ header{
     }
     #fourth{
         width: 30%;
-        flex: 1;
     }
     #fourth>img{
         margin: 30% 10%;
