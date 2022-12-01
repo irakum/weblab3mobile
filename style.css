@@ -169,6 +169,7 @@ header{
     #central{
         width: 100%;
         flex: 1;
+        padding: 0;
     }
     #third{
         flex: 1;
@@ -178,5 +179,8 @@ header{
     }
     #fourth>img{
         margin: 30% 10%;
+    }
+    #ender{
+        padding: 0;
     }
 }
