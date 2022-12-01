@@ -157,10 +157,7 @@ header{
 
 @media screen and (max-width: 1000px) {
     body{
-        font-size: 15px;
-    }
-    #top-box{
-        font-size: 15px;
+        font-size: 25px;
     }
     #mid-middle{
         flex-direction: column;
