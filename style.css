@@ -168,8 +168,12 @@ header{
     #central{
         width: 100%;
     }
+    #third{
+        flex: 1;
+    }
     #fourth{
         width: 30%;
+        flex: 1;
     }
     #fourth>img{
         margin: 30% 10%;
